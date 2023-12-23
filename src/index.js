@@ -1,10 +1,7 @@
 import * as Cheerio from 'cheerio';
 import axios from 'axios';
 
-console.log('hello');
-
 const baseUrl = 'https://www.lalitmauritius.org/en/dictionary.html';
-
 
 const scrapeDataForLetter = async (letter) => {
   const url = `${baseUrl}?letter=${letter}`;
