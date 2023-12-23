@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon --exec babel-node server.js",
-    "build": "babel src -d src --presets=@babel/preset-env",
+    "build": "babel src -d dist --presets=@babel/preset-env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "babel": {
@@ -15,13 +15,12 @@
   },
   "keywords": [],
   "author": "Humeira Diljore",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.23.4",
     "@babel/core": "^7.23.6",
     "@babel/node": "^7.22.19",
     "@babel/preset-env": "^7.23.6",
-    "axios": "^1.6.2",
     "babel-eslint": "^10.1.0",
     "cheerio": "^1.0.0-rc.12",
     "express": "^4.18.2",
