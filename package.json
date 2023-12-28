@@ -29,7 +29,7 @@
     "express": "^4.18.2",
     "nodemon": "^3.0.2"
   },
-  "files": ["dist"],
+  "files": ["dist/data.json"],
   "engines": {
     "node": ">=12.0.0"
   },
